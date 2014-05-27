@@ -1,0 +1,80 @@
+html{
+   background-image: url("../img/bg.gif");
+}
+
+@font-face {
+  font-family: SegoeWP-Semilight;
+  src: url('../assets/SegoeWP-Semilight.ttf');
+}
+
+#logo{
+  margin-top:20px;
+}
+
+p{
+  text-decoration: none;
+  font-family:Arial;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 0;
+  color: #BBBBBB;
+} 
+
+form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="email"]{
+  height: 30px;
+  width: 200px;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; /* future proofing */
+  -khtml-border-radius: 2px; 
+  font-family: SegoeWP-Semilight;
+  font-size: 16px;
+}
+
+input[type="text"]:focus{
+  outline: none;
+}
+
+input[type="submit"]{
+  height: 32px;
+  width: 80px;
+  color: #FFFFFF;
+  font-family: SegoeWP-Semilight;
+  font-size: 18px;
+  background-color: #00B7DE;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+#comingsoon{
+   width: 90px;
+   height: 90px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  width: 285px;
+}
+
+li{
+  width: 49px;
+  height: 49px;
+  float: left;
+  margin-right: 10px;
+  list-style: none;
+}
+
+li:last-child{
+  margin-right:0;
+}
